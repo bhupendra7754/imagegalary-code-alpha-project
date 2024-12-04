@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>photo galary -></h2>
+  <div class="gallery-container">
+    <div class="gallery">
+      <button class="nav-btn prev" onclick="navigate(-1)">&#10094;prev</button>
+      <img id="gallery-image" src="" alt="Gallery Image">
+      <button class="nav-btn next" onclick="navigate(1)">&#10095;next</button>
+    </div>
+    <div class="thumbnails">
+        <img src="https://article.images.consumerreports.org/t_article_tout,f_auto/prod/content/dam/CRO%20Images%202019/Health/02Feb/CR-Health-Inlinehero-pet-poisons-0219 " alt="Thumbnail 5" onclick="setImage(4)"> 
+      <img src="https://images1.fanpop.com/images/photos/1600000/Pics-from-the-zoo-animals-1674822-2560-1920.jpg" alt="Thumbnail 1" onclick="setImage(0)">
+      <img src="https://www.rd.com/wp-content/uploads/2020/04/gettyimages-665660202.jpg" alt="Thumbnail 2" onclick="setImage(1)">
+      <img src="https://www.pixelstalk.net/wp-content/uploads/images2/Sleeping-Leopard-HD-Animal-Wallpaper.jpg" alt="Thumbnail 3" onclick="setImage(2)">
+      <img src="https://article.images.consumerreports.org/t_article_tout,f_auto/prod/content/dam/CRO%20Images%202019/Health/02Feb/CR-Health-Inlinehero-pet-poisons-0219" alt="Thumbnail 4" onclick="setImage(3)">
+     <img src=" https://media.licdn.com/dms/image/v2/D4D16AQF5pJjHCna0kA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1726388591686?e=1738800000&v=beta&t=Alf0As2CoHBllcCx2FprQN7G_odAT7Rc-bJ3UNtFHAU" alt="thumbnail 6" onclick="setImage(5)">
+    </div>
+  </div>
+  <div id="dis">"Every picture tells a story—some of adventure, some of peace, but all of wonder."</div>
+  <script src="script.js"></script>
+</body>
+</html>
